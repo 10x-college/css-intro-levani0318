@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f7;
+}
+.header {
+  text-align: center;
+  width: 100%;
+  padding: 22px;
+  > a {
+    color: #5b47d1;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 11px 19px 10px 23px;
+    border: 1px solid aquamarine;
+    text-decoration: none;
+    margin-right: 60px;
+  }
+  nav {
+    display: inline-block;
+    ul {
+      li {
+        display: inline-block;
+        list-style: none;
+        a {
+          text-decoration: none;
+          margin-left: 30px;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+.cover {
+  width: 100%;
+  height: 37%;
+  background-image: url(../assets/Rectangle7.png);
+  text-align: center;
+  color: #ffffff;
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 3%;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1%;
+    padding-bottom: 4%;
+  }
+}
+
+.section {
+  width: 100%;
+  h2 {
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+  }
+}
+
+.content {
+  text-align: center;
+}
+.article {
+  background-color: #ffffff;
+  max-width: 360px;
+  display: inline-block;
+  margin: 29px;
+  border: 1px solid greenyellow;
+}
+
+.rectangle-C7B8FF {
+  background-color: #c7b8ff;
+}
+
+.rectangle-FFB8D8 {
+  background-color: #ffb8d8;
+}
+
+.rectangle-B8E0FF {
+  background-color: #b8e0ff;
+}
+
+.rectangle-D4FFB8 {
+  background-color: #d4ffb8;
+}
+
+.rectangle-FFE4B8 {
+  background-color: #ffe4b8;
+}
+
+.rectangle-FFD4B8 {
+  background-color: #ffd4b8;
+}
+.rectangle-C7B8FF,
+.rectangle-FFB8D8,
+.rectangle-B8E0FF,
+.rectangle-D4FFB8,
+.rectangle-FFE4B8,
+.rectangle-FFD4B8 {
+  height: 240px;
+}
+.figcaption {
+  padding-top: 15px;
+  margin-bottom: 15px;
+  padding-right: 15px;
+  > span {
+    margin-left: 28px;
+  }
+}
+.card-article {
+  padding-right: 19px;
+  h3 {
+    max-width: 298px;
+    font-size: 22px;
+    line-height: 125%;
+    margin-bottom: 19px;
+    margin-left: 19px;
+  }
+  p {
+    font-size: 15px;
+    max-width: 303px;
+    line-height: 100%;
+    margin-bottom: 36px;
+    margin-left: 19px;
+  }
+}
+
+.footer {
+  background-color: #252424;
+  text-align: center;
+}
+.footer-main {
+  height: 338px;
+  padding-top: 54px;
+  display: inline-block;
+}
+.footer-first-stage {
+  max-width: 100%;
+  margin: 0 auto;
+  display: inline;
+}
+.footer-techblog {
+  h4 {
+    max-width: 91px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  p {
+    max-width: 296px;
+    text-align: justify;
+    color: #a1a1a6;
+    font-size: 14px;
+  }
+}
+.footer-nav {
+  h4 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  ul {
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: #a1a1a6;
+        font-size: 14px;
+      }
+    }
+  }
+}
+.footer-contact {
+  h4 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
+.cotact-font {
+  font-size: 14px;
+  color: #a1a1a6;
+}
+
+.footer-line {
+  text-align: center;
+  background-color: #020202;
+  max-height: 55px;
+  p {
+    font-size: 13px;
+    color: #86868b;
+    padding-top: 20px;
+    padding-bottom: 19px;
+  }
+}
