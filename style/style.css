@@ -136,3 +136,69 @@ body {
     margin-left: 19px;
   }
 }
+
+.footer {
+  background-color: #252424;
+  text-align: center;
+}
+.footer-main {
+  height: 338px;
+  padding-top: 54px;
+  display: inline-block;
+}
+.footer-first-stage {
+  max-width: 100%;
+  margin: 0 auto;
+  display: inline;
+}
+.footer-techblog {
+  h4 {
+    max-width: 91px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  p {
+    max-width: 296px;
+    text-align: justify;
+    color: #a1a1a6;
+    font-size: 14px;
+  }
+}
+.footer-nav {
+  h4 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  ul {
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: #a1a1a6;
+        font-size: 14px;
+      }
+    }
+  }
+}
+.footer-contact {
+  h4 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
+.cotact-font {
+  font-size: 14px;
+  color: #a1a1a6;
+}
+
+.footer-line {
+  text-align: center;
+  background-color: #020202;
+  max-height: 55px;
+  p {
+    font-size: 13px;
+    color: #86868b;
+    padding-top: 20px;
+    padding-bottom: 19px;
+  }
+}
